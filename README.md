@@ -15,45 +15,51 @@
 
 # OmniView
 
-## Description
+## Overview
 
-**OmniView** is a powerful video viewing and recording application equipped with real-time object detection and screenshot capabilities. The application uses the OpenCV library to connect to cameras and perform video processing, as well as the Darknet API for object detection.
+**OmniView** is an advanced video viewing and recording application packed with real-time object detection and screenshot features. Utilizing the OpenCV library for camera connection and video processing, alongside the Darknet API for object detection, OmniView is your go-to tool for comprehensive video analysis.
 
-## Key Features
+## Key Features ✨
 
-- **Camera Detection**: Automatically detect connected cameras.
-- **Live View**: View live video from the selected camera.
-- **Video Recording**: Record video stream to a file.
-- **Object Detection**: Detect objects in the video using the YOLOv3 model.
-- **Screenshots**: Capture screenshots and save them to the selected folder.
+- **Camera Detection** 📷: Automatically identifies and lists connected cameras.
+- **Live Stream Viewing** 📺: View live video feed from your selected camera in real-time.
+- **Video Recording** 🎥: Record video streams to a file with just a click.
+- **Object Detection** 🕵️‍♂️: Leverages the YOLOv3 model for detecting objects within the video stream.
+- **Screenshot Capture** 📸: Take high-quality screenshots and save them in your desired folder.
 
-## Installation
+## Installation 🛠️
 
-1. Ensure you have Python 3.10 or higher installed.
+To get started with OmniView, follow these steps:
+
+1. Ensure you have **Python 3.10** or higher installed.
 2. Clone the repository:
     ```bash
     git clone https://github.com/Solrikk/OmniView.git
     cd OmniView
     ```
-3. Install dependencies:
+3. Install dependencies using Poetry:
     ```bash
     poetry install
     ```
 
-## Usage
+## Usage 🚀
 
-1. Run the application:
+Follow these simple steps to use OmniView:
+
+1. Launch the application:
     ```bash
     poetry run python main.py
     ```
-2. Select a camera from the list and click "View Camera" to start viewing.
-3. Use the buttons to start recording, take screenshots, and activate object detection.
+2. Select a camera from the provided list and click "View Camera" to start the live feed.
+3. Utilize the buttons available to start or stop video recording, take screenshots, and enable object detection.
 
-## Dependencies
+## Dependencies 📦
+
+OmniView relies on the following libraries and tools:
 
 - **Python 3.10 and above**
-- **tkinter**: for creating the user interface.
-- **OpenCV**: for connecting to cameras and processing video.
-- **NumPy**: for working with data arrays.
-- **Pillow**: for image processing.
-- **Poetry**: for dependency management.
+- **tkinter**: For constructing the user interface.
+- **OpenCV**: To manage camera connections and process video streams.
+- **NumPy**: Essential for handling data arrays.
+- **Pillow**: Used for image processing tasks.
+- **Poetry**: Manages project dependencies efficiently.
