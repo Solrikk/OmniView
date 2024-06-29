@@ -19,7 +19,7 @@
 
 **OmniView** is an advanced video viewing and recording application packed with real-time object detection and screenshot features. Utilizing the OpenCV library for camera connection and video processing, alongside the Darknet API for object detection, OmniView is your go-to tool for comprehensive video analysis.
 
-## Features ✨
+## Features: ✨
 
 - **Camera Detection** 📷: Automatically identifies and lists connected cameras. This feature utilizes **OpenCV** to scan for all available video devices and adds the detected cameras to a list for user selection, eliminating the need for manual device searching.
 
@@ -31,7 +31,7 @@
 
 - **Screenshot Capture** 📸: Take high-quality screenshots and save them in your desired folder. This feature is ideal for capturing important moments or using the frames for further analysis. The application automatically creates a folder in the user's home directory for storing screenshots if it doesn't already exist.
 
-## Installation 🛠️
+## Installation: 🛠️
 
 To get started with OmniView, follow these steps:
 
@@ -46,7 +46,7 @@ To get started with OmniView, follow these steps:
     poetry install
     ```
 
-## Usage 🚀
+## Usage: 🚀
 
 Follow these simple steps to use OmniView:
 
@@ -57,7 +57,7 @@ Follow these simple steps to use OmniView:
 2. Select a camera from the provided list and click "View Camera" to start the live feed.
 3. Utilize the buttons available to start or stop video recording, take screenshots, and enable object detection.
 
-## Dependencies 📦
+## Dependencies: 📦
 
 OmniView relies on the following libraries and tools:
 
