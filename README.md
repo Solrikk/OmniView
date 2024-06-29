@@ -17,9 +17,9 @@
 
 # OmniView 👁️
 
-## Overview
+## Overview:
 
-**OmniView** is an advanced video viewing and recording application packed with real-time object detection and screenshot features. Utilizing the OpenCV library for camera connection and video processing, alongside the Darknet API for object detection, OmniView is your go-to tool for comprehensive video analysis.
+**OmniView** is an advanced video viewing and recording application that offers a range of features including **real-time object detection** and **screenshot capturing**. This project uses the **OpenCV library** for **camera connection** and **video processing**, ensuring smooth and high-quality video streams. By integrating the **Darknet API**, OmniView provides sophisticated **object detection** capabilities, enabling real-time identification and tracking of various objects within the video feed.
 
 ![OmniView Demo](https://github.com/Solrikk/OmniView/blob/main/assets/gif/OmniView.gif)
 
