@@ -21,11 +21,15 @@
 
 ## Key Features ✨
 
-- **Camera Detection** 📷: Automatically identifies and lists connected cameras.
-- **Live Stream Viewing** 📺: View live video feed from your selected camera in real-time.
-- **Video Recording** 🎥: Record video streams to a file with just a click.
-- **Object Detection** 🕵️‍♂️: Leverages the YOLOv3 model for detecting objects within the video stream.
-- **Screenshot Capture** 📸: Take high-quality screenshots and save them in your desired folder.
+- **Camera Detection** 📷: Automatically identifies and lists connected cameras. This feature utilizes **OpenCV** to scan for all available video devices and adds the detected cameras to a list for user selection, eliminating the need for manual device searching.
+
+- **Live Stream Viewing** 📺: View live video feed from your selected camera in real-time. The application uses **Tkinter** and **OpenCV** to display the video feed directly within the user interface, allowing users to monitor the camera feed seamlessly.
+
+- **Video Recording** 🎥: Record video streams to a file with just a click. The recording can be started and stopped at any time, and the resulting video file is saved for later viewing or analysis. The application uses the **XVID codec** for recording, with automatic settings for frame rate and resolution.
+
+- **Object Detection** 🕵️‍♂️: Leverages the **YOLOv3** model for detecting objects within the video stream in real-time. This model highlights various types of objects (e.g., people, cars, animals) and displays them with corresponding labels and confidence levels, making it easier to identify and track objects in the frame.
+
+- **Screenshot Capture** 📸: Take high-quality screenshots and save them in your desired folder. This feature is ideal for capturing important moments or using the frames for further analysis. The application automatically creates a folder in the user's home directory for storing screenshots if it doesn't already exist.
 
 ## Installation 🛠️
 
