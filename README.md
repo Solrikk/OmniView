@@ -1,4 +1,4 @@
-![Logo](https://github.com/Solrikk/OmniView/blob/main/assets/result/images/orb6.png)
+![Logo](https://github.com/Solrikk/OmniView/blob/main/assets/images/techny-machine-vision-icon.png)
 
 <div align="center">
   <h3>
