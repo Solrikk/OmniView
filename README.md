@@ -21,6 +21,8 @@
 
 **OmniView** is an advanced video viewing and recording application packed with real-time object detection and screenshot features. Utilizing the OpenCV library for camera connection and video processing, alongside the Darknet API for object detection, OmniView is your go-to tool for comprehensive video analysis.
 
+![PicTrace Demo](https://github.com/Solrikk/OmniView/blob/main/assets/gif/OmniView.gif)
+
 ## Features: ✨
 
 - **Camera Detection** 📷: Automatically identifies and lists connected cameras. This feature utilizes **OpenCV** to scan for all available video devices and adds the detected cameras to a list for user selection, eliminating the need for manual device searching.
