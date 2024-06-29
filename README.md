@@ -61,9 +61,14 @@ Follow these simple steps to use OmniView:
 
 OmniView relies on the following libraries and tools:
 
-- **Python 3.10 and above**
-- **tkinter**: For constructing the user interface.
-- **OpenCV**: To manage camera connections and process video streams.
-- **NumPy**: Essential for handling data arrays.
-- **Pillow**: Used for image processing tasks.
-- **Poetry**: Manages project dependencies efficiently.
+- **Python 3.10 and above**: The application requires [**Python 3.10**](https://www.python.org/downloads/release/python-3100/) or higher to leverage the latest language features and maintain compatibility with modern libraries.
+
+- **tkinter**: For constructing the user interface. [**tkinter**](https://docs.python.org/3/library/tkinter.html) is the built-in GUI toolkit for Python, which provides a simple way to create windows, dialogs, buttons, and other user interface elements.
+
+- **OpenCV**: To manage camera connections and process video streams. [**OpenCV**](https://opencv.org/) is an open-source computer vision and machine learning software library, widely used for real-time computer vision applications. It facilitates capturing video from cameras, video files, and even network streams.
+
+- **NumPy**: Essential for handling data arrays. [**NumPy**](https://numpy.org/) is a fundamental package for scientific computing in Python, offering powerful array processing capabilities. It is extensively used in handling image data and performing mathematical operations required in object detection.
+
+- **Pillow**: Used for image processing tasks. [**Pillow**](https://python-pillow.org/) is the Python Imaging Library (PIL) fork, which adds easy-to-use image processing capabilities to your Python interpreter. It enables opening, manipulating, and saving many different image file formats.
+
+- **Poetry**: Manages project dependencies efficiently. [**Poetry**](https://python-poetry.org/) is a tool for dependency management and packaging in Python. It helps to declare project libraries, ensures that dependencies are compatible with each other, and simplifies virtual environment creation and activation.
