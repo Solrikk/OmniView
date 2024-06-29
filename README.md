@@ -1,4 +1,6 @@
-![Logo](https://github.com/Solrikk/OmniView/blob/main/assets/images/techny-machine-vision-icon.png)
+<div align="center">
+  <img src="https://github.com/Solrikk/OmniView/blob/main/assets/images/techny-machine-vision-icon.png" alt="Logo" />
+</div>
 
 <div align="center">
   <h3>
