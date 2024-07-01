@@ -61,6 +61,8 @@ Follow these simple steps to use OmniView:
 2. Select a camera from the provided list and click "View Camera" to start the live feed.
 3. Utilize the buttons available to start or stop video recording, take screenshots, and enable object detection.
 
+**⚠️ Important: To use the YOLOv3 weights, download them from [here](https://pjreddie.com/media/files/yolov3.weights).**
+
 ## Dependencies: 📦
 
 OmniView relies on the following libraries and tools:
