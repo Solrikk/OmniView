@@ -17,13 +17,20 @@
 
 # OmniView 👁️
 
-## Overview:
+## Table of Contents
+ 1. [Overview](#overview)
+ 2. [Features](#features)
+ 3. [Installation](#installation)
+ 4. [Usage](#usage)
+ 5. [Dependencies](#dependencies)
+ 
+## Overview <a name="overview"></a>
 
 **OmniView** is an advanced video viewing and recording application that offers a range of features including **real-time object detection** and **screenshot capturing**. This project uses the **OpenCV library** for **camera connection** and **video processing**, ensuring smooth and high-quality video streams. By integrating the **Darknet API**, OmniView provides sophisticated **object detection** capabilities, enabling real-time identification and tracking of various objects within the video feed.
 
 ![OmniView Demo](https://github.com/Solrikk/OmniView/blob/main/assets/gif/OmniView.gif)
 
-## Features: ✨
+## Features <a name="features"></a> ✨
 
 - **Camera Detection** 📷: Automatically identifies and lists connected cameras. This feature utilizes **OpenCV** to scan for all available video devices and adds the detected cameras to a list for user selection, eliminating the need for manual device searching.
 
@@ -35,7 +42,7 @@
 
 - **Screenshot Capture** 📸: Take high-quality screenshots and save them in your desired folder. This feature is ideal for capturing important moments or using the frames for further analysis. The application automatically creates a folder in the user's home directory for storing screenshots if it doesn't already exist.
 
-## Installation: 🛠️
+## Installation <a name="installation"></a> 🛠️
 
 To get started with OmniView, follow these steps:
 
@@ -50,7 +57,7 @@ To get started with OmniView, follow these steps:
     poetry install
     ```
 
-## Usage: 🚀
+## Usage <a name="usage"></a> 🚀
 
 Follow these simple steps to use OmniView:
 
@@ -63,7 +70,7 @@ Follow these simple steps to use OmniView:
 
 **⚠️ Important: To use the YOLOv3 weights, download them from [here](https://pjreddie.com/media/files/yolov3.weights).**
 
-## Dependencies: 📦
+## Dependencies <a name="dependencies"></a> 📦
 
 OmniView relies on the following libraries and tools:
 
